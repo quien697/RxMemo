@@ -1,22 +1,14 @@
 # RxMemo
 
-* It's a practice project using RxSwift.
-* Using CocoaPods to install third-party libraries.
+* It's a practice project using [RxSwift](https://github.com/ReactiveX/RxSwift).
+* Using [CocoaPods](https://github.com/CocoaPods/CocoaPods) to install third-party libraries.
 * There are two branches that using different storage to manage data, memory storage and core data storage.
+* Using `Core Data` to manage data in this case.
 
 #### Third-Party Libraries
 
-1. RxSwift
-2. RxCocoa
-3. Action
-4. NSObject+Rx
-5. RxDataSources
-6. RxCoreData
-
-#### Storage
-
-Memory Storage
-
-#### PS
-
-There are two branches that using different storage to manage data, memory storage and core data storage.
+1. [RxSwift](https://github.com/ReactiveX/RxSwift)
+2. [Action](https://github.com/RxSwiftCommunity/Action)
+3. [NSObject+Rx](https://github.com/RxSwiftCommunity/NSObject-Rx)
+4. [RxDataSources](https://github.com/RxSwiftCommunity/RxDataSources)
+5. [RxCoreData](https://github.com/RxSwiftCommunity/RxCoreData)
