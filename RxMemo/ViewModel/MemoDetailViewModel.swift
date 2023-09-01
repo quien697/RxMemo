@@ -27,8 +27,8 @@ class MemoDetailViewModel: CommonViewModel {
   init(memo: Memo, title: String, sceneCoordinator: SceneCoordinatorType, storage: MemoStorageType) {
     self.memo = memo
     self.contents = BehaviorSubject<[String]>(value: [
-      memo.content,
-      formatter.string(from: memo.insertDate)
+      memo.content ?? "",
+      formatter.string(from: memo.insertDate ?? Date())
     ])
     super.init(title: title, sceneCoordinator: sceneCoordinator, storage: storage)
   }
@@ -38,8 +38,8 @@ class MemoDetailViewModel: CommonViewModel {
       self.storage.updateMemo(memo: memo, content: input)
         .subscribe(onNext: { updatedMemo in
           self.contents.onNext([
-            updatedMemo.content,
-            self.formatter.string(from: updatedMemo.insertDate)
+            updatedMemo.content ?? "",
+            self.formatter.string(from: updatedMemo.insertDate ?? Date())
           ])
         })
         .disposed(by: self.bag)
