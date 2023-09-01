@@ -1,5 +1,22 @@
 # RxMemo
 
-* It's a practice project using RxSwift, RxCocoa, Action, NSObject+Rx, RxDataSources and RxCoreData.
+* It's a practice project using RxSwift.
 * Using CocoaPods to install third-party libraries.
-* Using core data storage to manage data.
+* There are two branches that using different storage to manage data, memory storage and core data storage.
+
+#### Third-Party Libraries
+
+1. RxSwift
+2. RxCocoa
+3. Action
+4. NSObject+Rx
+5. RxDataSources
+6. RxCoreData
+
+#### Storage
+
+Memory Storage
+
+#### PS
+
+There are two branches that using different storage to manage data, memory storage and core data storage.
